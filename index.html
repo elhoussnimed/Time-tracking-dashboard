@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <main class="container">
+    <section class="user">
+      <div class="infos">
+        <img src="./images/image-jeremy.png" alt="user image">
+        <div>
+          <p>Report for</p>
+          <h2>Jeremy Robson</h2>
+        </div>
+      </div>
+      <ul class="timing">
+        <li><a href="#" data-timeFrame="daily">Daily</a></li>
+        <li><a href="#" data-timeFrame="weekly" class="active">Weekly</a></li>
+        <li><a href="#" data-timeFrame="monthly">Monthly</a></li>
+      </ul>
+    </section>
+    <section class="category">
+      <div class="work card">
+        <div class="bg">
+          <img src="./images/icon-work.svg" alt="work icon">
+        </div>
+        <div class="content">
+          <span class="dots">...</span>
+          <h4>work</h4>
+          <p>32 hrs</p>
+          <p>Last Week - <span>36 hrs</span></p>
+        </div>
+      </div>
+      <div class="play card">
+        <div class="bg">
+          <img src="./images/icon-play.svg" alt="play icon">
+        </div>
+        <div class="content">
+          <span class="dots">...</span>
+          <h4>play</h4>
+          <p>10 hrs</p>
+          <p>Last Week - <span>8 hrs</span></p>
+        </div>
+      </div>
+      <div class="study card">
+        <div class="bg">
+          <img src="./images/icon-study.svg" alt="study icon">
+        </div>
+        <div class="content">
+          <span class="dots">...</span>
+          <h4>study</h4>
+          <p>4 hrs</p>
+          <p>Last Week - <span>7 hrs</span></p>
+        </div>
+      </div>
+      <div class="exercise card">
+        <div class="bg">
+          <img src="./images/icon-exercise.svg" alt="exercise icon">
+        </div>
+        <div class="content">
+          <span class="dots">...</span>
+          <h4>exercise</h4>
+          <p>4 hrs</p>
+          <p>Last Week - <span>5 hrs</span></p>
+        </div>
+      </div>
+      <div class="social card">
+        <div class="bg">
+          <img src="./images/icon-social.svg" alt="social icon">
+        </div>
+        <div class="content">
+          <span class="dots">...</span>
+          <h4>social</h4>
+          <p>5 hrs</p>
+          <p>Last Week - <span>10 hrs</span></p>
+        </div>
+      </div>
+      <div class="self-care card">
+        <div class="bg">
+          <img src="./images/icon-self-care.svg" alt="self care icon">
+        </div>
+        <div class="content">
+          <span class="dots">...</span>
+          <h4>self care</h4>
+          <p>2 hrs</p>
+          <p>Last Week - <span>2 hrs</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://twitter.com/ELHOUSSNIMOHAMM">El Houssni Mohammed</a>.
+  </div>
+</body>
+
+</html>
